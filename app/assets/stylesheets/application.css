@@ -8,3 +8,145 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Arial, Helvetica, sans-serif
+}
+
+body {
+  margin: 20px 33px;
+  color: #333333;
+}
+
+h1, h2, p, ul {
+  line-height: 18px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-top: 26px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  padding: 2px 0 14px;
+  font-size: 19.5px;
+}
+
+a {
+  color: #666;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+table {
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+th {
+  padding: 1.5px 0 2px;
+}
+
+td {
+  padding: 3.5px 5px;
+}
+
+td > a:link {
+  color: #000;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+.message {
+  margin: 33px;
+  font-size: 13px;
+  color: green;
+}
+
+.page-title {
+  margin-top: 33px;
+}
+
+.home-comment {
+  padding: 24px 33px;
+  font-size: 13px;
+}
+
+.home-comment > p {
+  margin-bottom: 32px;
+}
+
+.home-comment > p:last-of-type {
+  margin-bottom: 34px;
+}
+
+.text-title {
+  font-size: 13px;
+}
+
+.text-field {
+  margin-bottom: 12px;
+}
+
+.text-field > input {
+  padding: 1px 2px;
+}
+
+.text-field > textarea {
+  padding: 1px 2px;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 13px;
+}
+
+.button > input {
+  padding: 0.5px 4.5px;
+  font-size: 12.5px;
+}
+
+.error-message {
+  width: 470px;
+  border: 2px solid red;
+  margin-bottom: 16px;
+}
+
+.error-title {
+  padding: 6px 16px 7px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #c9171e;
+}
+
+.error-message > ul {
+  padding: 34px 80px;
+  font-size: 12px;
+  background-color: #eee;
+}
+
+.show-contents {
+  padding-left: 33px;
+  font-size: 13px;
+}
+
+.show-contents > p {
+  margin-bottom: 32px;
+}
+
+.show-title {
+  font-weight: bold;
+}
+
+.edit-button {
+  font-size: 13px;
+}
